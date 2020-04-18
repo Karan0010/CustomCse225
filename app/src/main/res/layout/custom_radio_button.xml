@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomRadioButton">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Select Your Gender"
+        android:id="@+id/textview"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textview"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.cse225.CustomRadioButtonFile
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:minWidth="70dp"
+            style="@style/MyCustomRadioButton"
+            android:text="Male"
+            />
+        <com.example.cse225.CustomRadioButtonFile
+            android:layout_marginTop="15dp"
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:minWidth="70dp"
+            style="@style/MyCustomRadioButton"
+            android:text="Female"
+            />
+
+
+
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtv"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Select type of Custom View"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/cusbtn"
+        android:text="Custom Button"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:background="@drawable/color1_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtv"
+        android:layout_width="wrap_content"
+        android:onClick="onButtonClick"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/cuscheck"
+        android:text="Custom CheckBox"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:background="@drawable/color1_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cusbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/cusrad"
+        android:text="Custom RadioButton"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:background="@drawable/color1_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cuscheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
